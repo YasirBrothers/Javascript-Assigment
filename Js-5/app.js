@@ -26,6 +26,15 @@
 
 
 // Q4
+    // var userTable = Number(prompt("Enter your table number"));
+    // var tableStartLenght = Number(prompt("Enter your table start lenght"));
+    // var tableEndLenght = Number(prompt("Enter your table end lenght"));
+
+    // console.log("Multiplication table of" , userTable, "Start lenght" , tableStartLenght, "End Lenght" , tableEndLenght);
+
+    // for (var i = tableStartLenght; i <= tableEndLenght; i++) {
+    //     console.log(userTable + " x " + i + " = " + userTable * i);
+    // }
 
 
 // Q5
@@ -72,9 +81,29 @@
 
 
 // Q8
+    // var  arr = [24, 53, 78, 91, 12];
+    // var max = arr[0];
+
+    // for (var i = 0; i < arr.length; i++) {
+    //     if (max < arr[i]) {
+    //         (max = arr[i])
+    //     }
+    // }
+    // console.log("The Given Array Number is: " + "[" + arr + "]");
+    // console.log("The Largest Number in Array is: " + max);
 
 
 // Q9
+    // var  arr = [24, 53, 78, 91, 12];
+    // var min = arr[0];
+
+    // for (var i = 0; i < arr.length; i++) {
+    //     if (min > arr[i]) {
+    //         (min = arr[i])
+    //     }
+    // }
+    // console.log("The Given Array Number is: " + "[" + arr + "]");
+    // console.log("The Smallest Number in Array is: " + min);
 
 
 // Q10
