@@ -90,6 +90,15 @@
 
 
 // Q11
+    // var userInput = prompt("Enter a String");
+    // var inputTitleCase = userInput.split(" ");
+
+    // for (var i = 0; i < inputTitleCase.length; i++) {
+    //     inputTitleCase[i] = inputTitleCase[i].slice(0,1).toUpperCase() + inputTitleCase[i].slice(1) 
+    // }
+
+    // titleCase = inputTitleCase.join(" ");
+    // console.log(titleCase);
 
 
 // Q12
@@ -102,15 +111,46 @@
 
 
 // Q14
+    // var foods = ["cake", "apple pie", "cookie", "chips", "patties"];
+    // userInput = prompt("Welcome to ABC Bakery. What do you want to order sir/ma'am?")
+
+    // var userInputLowercase = userInput.toLowerCase();
+
+    // inputFood = false;
+
+    // for (var i = 0; i < foods.length; i++) {
+    //     var currentUserinput = foods[i].toLowerCase() 
+
+    //     if (currentUserinput === userInputLowercase) {
+            
+    //        inputFood = true; 
+    //     }
+    // }
+
+    // if (inputFood) {
+    //     console.log(userInputLowercase + "! Your Order is available")
+    // }
+
+    // else{
+    //     console.log("Sorry! not available!")
+    // }
 
 
 // Q15
 
 
 // Q16
+    // var arr = "University of Karachi";
+    // var words = arr.split("");
+
+    // console.log(words);
     
 
 // Q17
+    // var userInput = "Pakistan";
+    // var words = userInput.charAt(7);
+    // console.log("User Input: " + userInput);
+    // console.log("Last Character: " + words);
 
 
 // Q18
