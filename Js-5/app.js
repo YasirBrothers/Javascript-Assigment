@@ -77,7 +77,27 @@
     
 
 // Q7 
+    // var foods = ["cake", "apple pie", "cookie", "chips", "patties"];
+    // var userInput = prompt("Enter your order");
     
+    // var userInputLowercase = userInput.toLowerCase();
+    // var itemFound = false;
+    
+    // for (var i = 0; i < foods.length; i++) {
+    //     var currentInputLowercase = foods[i].toLowerCase()
+    
+    //     if (currentInputLowercase === userInputLowercase) {
+    //         var itemFound = true; 
+    //     }
+    // }
+    
+    // if(itemFound) {
+    //     console.log(userInputLowercase +  "! is available in our bakery")
+    // }
+    // else {
+    //     console.log("We are Sorry! it's not available in our bakery")
+    // }
+
 
 
 // Q8
