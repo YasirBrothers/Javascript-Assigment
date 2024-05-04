@@ -7,7 +7,7 @@
   // alert("Error! Please enter a valid password.");
 
 // Q3
-//  alert("Welcome to Js Land... \n Happy Coding!");
+//  alert("Welcome to Js Land... \n Happy Coding!"
 
 // Q4
 //  alert("Welcome to JS Land...");
