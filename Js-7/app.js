@@ -1,11 +1,13 @@
-
-
 function countdown() {
     setInterval (function() {
 
     let dest = new Date("june 17, 2024, 00:00:00").getTime();
     let cur = new Date().getTime();
     let diff = dest - cur;
+
+    // let month = Math.floor( / (1000 * 60 * 60 * 24 * 31));
+    // console.log("month")
+
 
     let days = Math.floor(diff / (1000*60*60*24));
     console.log(days);
@@ -19,7 +21,6 @@ function countdown() {
     let seconds = Math.floor(diff % (1000*60) / (1000));
     console.log(seconds);
 
-    // document.getElementById("month").innerHTML = month + "</br>" + "Month";
     document.getElementById("days").innerHTML = days + "<br/>" + "Days";
     document.getElementById("hours").innerHTML = hours + "<br/>" + "Hours";
     document.getElementById("minutes").innerHTML = minutes + "<br/>" + "Minutes";
@@ -27,38 +28,8 @@ function countdown() {
 
     
     
-},1000)
+},0)
 }
 
 countdown();
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
